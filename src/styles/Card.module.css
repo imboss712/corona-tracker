@@ -1,0 +1,37 @@
+.container {
+  margin: 10px 5px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
+
+.heading {
+  margin: 15px 5px 25px 5px;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 0.35px;
+  word-spacing: 2.6px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #004545;
+  background-color: transparent;
+}
+
+.card {
+  margin: 35px 2% 20px 2% !important;
+  padding: auto;
+}
+
+.confirmed {
+  border-bottom: 5px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+  border-bottom: 5px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+  border-bottom: 5px solid rgba(255, 0, 0, 0.5);
+}
